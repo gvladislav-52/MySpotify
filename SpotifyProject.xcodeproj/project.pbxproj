@@ -9,13 +9,30 @@
 /* Begin PBXBuildFile section */
 		66CE51F82C47F3DC004DF398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE51F72C47F3DC004DF398 /* AppDelegate.swift */; };
 		66CE51FA2C47F3DC004DF398 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE51F92C47F3DC004DF398 /* SceneDelegate.swift */; };
-		66CE51FC2C47F3DC004DF398 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE51FB2C47F3DC004DF398 /* ViewController.swift */; };
-		66CE51FF2C47F3DC004DF398 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 66CE51FE2C47F3DC004DF398 /* Base */; };
+		66CE51FC2C47F3DC004DF398 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE51FB2C47F3DC004DF398 /* HomeViewController.swift */; };
 		66CE52012C47F3DD004DF398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CE52002C47F3DD004DF398 /* Assets.xcassets */; };
 		66CE52042C47F3DD004DF398 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 66CE52032C47F3DD004DF398 /* Base */; };
 		66CE520F2C47F3DD004DF398 /* SpotifyProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE520E2C47F3DD004DF398 /* SpotifyProjectTests.swift */; };
 		66CE52192C47F3DD004DF398 /* SpotifyProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE52182C47F3DD004DF398 /* SpotifyProjectUITests.swift */; };
 		66CE521B2C47F3DD004DF398 /* SpotifyProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE521A2C47F3DD004DF398 /* SpotifyProjectUITestsLaunchTests.swift */; };
+		66CE522E2C47F607004DF398 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE522D2C47F607004DF398 /* TabBarViewController.swift */; };
+		66CE52302C47F6D8004DF398 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE522F2C47F6D8004DF398 /* SearchViewController.swift */; };
+		66CE52322C47F6F6004DF398 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE52312C47F6F6004DF398 /* LibraryViewController.swift */; };
+		66CE52362C47F756004DF398 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE52352C47F756004DF398 /* AuthViewController.swift */; };
+		66CE52382C47F765004DF398 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE52372C47F765004DF398 /* WelcomeViewController.swift */; };
+		66CE523A2C47F77B004DF398 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE52392C47F77B004DF398 /* SettingsViewController.swift */; };
+		66CE523C2C47F78D004DF398 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE523B2C47F78D004DF398 /* ProfileViewController.swift */; };
+		66CE523E2C47F79C004DF398 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE523D2C47F79C004DF398 /* PlayerViewController.swift */; };
+		66CE52402C47F7B3004DF398 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE523F2C47F7B3004DF398 /* PlaylistViewController.swift */; };
+		66CE52422C47F7CF004DF398 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE52412C47F7CF004DF398 /* SearchResultsViewController.swift */; };
+		66CE52442C47F7F3004DF398 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE52432C47F7F3004DF398 /* AuthManager.swift */; };
+		66CE52462C47F7FF004DF398 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE52452C47F7FF004DF398 /* APICaller.swift */; };
+		66CE52482C47F81C004DF398 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE52472C47F81C004DF398 /* HapticsManager.swift */; };
+		66CE524A2C47F83A004DF398 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE52492C47F83A004DF398 /* Playlist.swift */; };
+		66CE524C2C47F853004DF398 /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE524B2C47F853004DF398 /* AudioTrack.swift */; };
+		66CE524E2C47F86D004DF398 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE524D2C47F86D004DF398 /* Artist.swift */; };
+		66CE52502C47F89A004DF398 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE524F2C47F89A004DF398 /* UserProfile.swift */; };
+		66CE52522C48047C004DF398 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE52512C48047C004DF398 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +56,7 @@
 		66CE51F42C47F3DC004DF398 /* SpotifyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CE51F72C47F3DC004DF398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66CE51F92C47F3DC004DF398 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		66CE51FB2C47F3DC004DF398 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		66CE51FE2C47F3DC004DF398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66CE51FB2C47F3DC004DF398 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		66CE52002C47F3DD004DF398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66CE52032C47F3DD004DF398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66CE52052C47F3DD004DF398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +65,24 @@
 		66CE52142C47F3DD004DF398 /* SpotifyProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CE52182C47F3DD004DF398 /* SpotifyProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyProjectUITests.swift; sourceTree = "<group>"; };
 		66CE521A2C47F3DD004DF398 /* SpotifyProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		66CE522D2C47F607004DF398 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		66CE522F2C47F6D8004DF398 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		66CE52312C47F6F6004DF398 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		66CE52352C47F756004DF398 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		66CE52372C47F765004DF398 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		66CE52392C47F77B004DF398 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		66CE523B2C47F78D004DF398 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		66CE523D2C47F79C004DF398 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		66CE523F2C47F7B3004DF398 /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		66CE52412C47F7CF004DF398 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		66CE52432C47F7F3004DF398 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		66CE52452C47F7FF004DF398 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		66CE52472C47F81C004DF398 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		66CE52492C47F83A004DF398 /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		66CE524B2C47F853004DF398 /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
+		66CE524D2C47F86D004DF398 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		66CE524F2C47F89A004DF398 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		66CE52512C48047C004DF398 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +133,12 @@
 		66CE51F62C47F3DC004DF398 /* SpotifyProject */ = {
 			isa = PBXGroup;
 			children = (
-				66CE51F72C47F3DC004DF398 /* AppDelegate.swift */,
-				66CE51F92C47F3DC004DF398 /* SceneDelegate.swift */,
-				66CE51FB2C47F3DC004DF398 /* ViewController.swift */,
-				66CE51FD2C47F3DC004DF398 /* Main.storyboard */,
-				66CE52002C47F3DD004DF398 /* Assets.xcassets */,
-				66CE52022C47F3DD004DF398 /* LaunchScreen.storyboard */,
+				66CE522C2C47F46B004DF398 /* Resources */,
+				66CE522B2C47F45E004DF398 /* Managers */,
+				66CE522A2C47F449004DF398 /* ViewModels */,
+				66CE52292C47F43E004DF398 /* Models */,
+				66CE52282C47F42D004DF398 /* Views */,
+				66CE52272C47F421004DF398 /* Controllers */,
 				66CE52052C47F3DD004DF398 /* Info.plist */,
 			);
 			path = SpotifyProject;
@@ -125,6 +159,87 @@
 				66CE521A2C47F3DD004DF398 /* SpotifyProjectUITestsLaunchTests.swift */,
 			);
 			path = SpotifyProjectUITests;
+			sourceTree = "<group>";
+		};
+		66CE52272C47F421004DF398 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				66CE52342C47F72C004DF398 /* Other */,
+				66CE52332C47F713004DF398 /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		66CE52282C47F42D004DF398 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				66CE52022C47F3DD004DF398 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		66CE52292C47F43E004DF398 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				66CE52492C47F83A004DF398 /* Playlist.swift */,
+				66CE524B2C47F853004DF398 /* AudioTrack.swift */,
+				66CE524D2C47F86D004DF398 /* Artist.swift */,
+				66CE524F2C47F89A004DF398 /* UserProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		66CE522A2C47F449004DF398 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		66CE522B2C47F45E004DF398 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				66CE52432C47F7F3004DF398 /* AuthManager.swift */,
+				66CE52452C47F7FF004DF398 /* APICaller.swift */,
+				66CE52472C47F81C004DF398 /* HapticsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		66CE522C2C47F46B004DF398 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				66CE52002C47F3DD004DF398 /* Assets.xcassets */,
+				66CE51F72C47F3DC004DF398 /* AppDelegate.swift */,
+				66CE51F92C47F3DC004DF398 /* SceneDelegate.swift */,
+				66CE52512C48047C004DF398 /* Extensions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		66CE52332C47F713004DF398 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				66CE522D2C47F607004DF398 /* TabBarViewController.swift */,
+				66CE51FB2C47F3DC004DF398 /* HomeViewController.swift */,
+				66CE522F2C47F6D8004DF398 /* SearchViewController.swift */,
+				66CE52312C47F6F6004DF398 /* LibraryViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		66CE52342C47F72C004DF398 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				66CE52352C47F756004DF398 /* AuthViewController.swift */,
+				66CE52372C47F765004DF398 /* WelcomeViewController.swift */,
+				66CE52392C47F77B004DF398 /* SettingsViewController.swift */,
+				66CE523B2C47F78D004DF398 /* ProfileViewController.swift */,
+				66CE523D2C47F79C004DF398 /* PlayerViewController.swift */,
+				66CE523F2C47F7B3004DF398 /* PlaylistViewController.swift */,
+				66CE52412C47F7CF004DF398 /* SearchResultsViewController.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +348,6 @@
 			files = (
 				66CE52012C47F3DD004DF398 /* Assets.xcassets in Resources */,
 				66CE52042C47F3DD004DF398 /* Base in Resources */,
-				66CE51FF2C47F3DC004DF398 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +372,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66CE51FC2C47F3DC004DF398 /* ViewController.swift in Sources */,
+				66CE52302C47F6D8004DF398 /* SearchViewController.swift in Sources */,
+				66CE524A2C47F83A004DF398 /* Playlist.swift in Sources */,
+				66CE52442C47F7F3004DF398 /* AuthManager.swift in Sources */,
+				66CE52422C47F7CF004DF398 /* SearchResultsViewController.swift in Sources */,
+				66CE52382C47F765004DF398 /* WelcomeViewController.swift in Sources */,
+				66CE523C2C47F78D004DF398 /* ProfileViewController.swift in Sources */,
+				66CE522E2C47F607004DF398 /* TabBarViewController.swift in Sources */,
+				66CE52482C47F81C004DF398 /* HapticsManager.swift in Sources */,
+				66CE524C2C47F853004DF398 /* AudioTrack.swift in Sources */,
+				66CE51FC2C47F3DC004DF398 /* HomeViewController.swift in Sources */,
+				66CE52362C47F756004DF398 /* AuthViewController.swift in Sources */,
 				66CE51F82C47F3DC004DF398 /* AppDelegate.swift in Sources */,
+				66CE52502C47F89A004DF398 /* UserProfile.swift in Sources */,
+				66CE52522C48047C004DF398 /* Extensions.swift in Sources */,
+				66CE52322C47F6F6004DF398 /* LibraryViewController.swift in Sources */,
+				66CE524E2C47F86D004DF398 /* Artist.swift in Sources */,
+				66CE52402C47F7B3004DF398 /* PlaylistViewController.swift in Sources */,
 				66CE51FA2C47F3DC004DF398 /* SceneDelegate.swift in Sources */,
+				66CE523E2C47F79C004DF398 /* PlayerViewController.swift in Sources */,
+				66CE52462C47F7FF004DF398 /* APICaller.swift in Sources */,
+				66CE523A2C47F77B004DF398 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +429,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		66CE51FD2C47F3DC004DF398 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				66CE51FE2C47F3DC004DF398 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		66CE52022C47F3DD004DF398 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,7 +570,6 @@
 				INFOPLIST_FILE = SpotifyProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,9 +579,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "gvladislav-52.SpotifyProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -473,7 +600,6 @@
 				INFOPLIST_FILE = SpotifyProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -483,9 +609,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "gvladislav-52.SpotifyProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
