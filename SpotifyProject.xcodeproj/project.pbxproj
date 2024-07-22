@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66BE12AE2C4E7EE700E405F8 /* SettingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BE12AD2C4E7EE700E405F8 /* SettingModels.swift */; };
 		66CE51F82C47F3DC004DF398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE51F72C47F3DC004DF398 /* AppDelegate.swift */; };
 		66CE51FA2C47F3DC004DF398 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE51F92C47F3DC004DF398 /* SceneDelegate.swift */; };
 		66CE51FC2C47F3DC004DF398 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE51FB2C47F3DC004DF398 /* HomeViewController.swift */; };
@@ -54,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66BE12AD2C4E7EE700E405F8 /* SettingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingModels.swift; sourceTree = "<group>"; };
 		66CE51F42C47F3DC004DF398 /* SpotifyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CE51F72C47F3DC004DF398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66CE51F92C47F3DC004DF398 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				66CE524D2C47F86D004DF398 /* Artist.swift */,
 				66CE524F2C47F89A004DF398 /* UserProfile.swift */,
 				66CE52532C484ED0004DF398 /* AuthResponse.swift */,
+				66BE12AD2C4E7EE700E405F8 /* SettingModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 				66CE52542C484ED0004DF398 /* AuthResponse.swift in Sources */,
 				66CE524C2C47F853004DF398 /* AudioTrack.swift in Sources */,
 				66CE51FC2C47F3DC004DF398 /* HomeViewController.swift in Sources */,
+				66BE12AE2C4E7EE700E405F8 /* SettingModels.swift in Sources */,
 				66CE52362C47F756004DF398 /* AuthViewController.swift in Sources */,
 				66CE51F82C47F3DC004DF398 /* AppDelegate.swift in Sources */,
 				66CE52502C47F89A004DF398 /* UserProfile.swift in Sources */,

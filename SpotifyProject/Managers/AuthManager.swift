@@ -13,6 +13,7 @@ final class AuthManager {
     // Общий экземпляр AuthManager
     // что позволяет реализовать паттерн Singleton, чтобы был только один экземпляр этого класса.
     static let shared = AuthManager()
+    private var refreshingToken = false
     
     // Константы, используемые в процессе аутентификации
     // clientID: ID клиента, который выдается приложению при регистрации в Spotify.
@@ -138,12 +139,40 @@ final class AuthManager {
         UserDefaults.standard.setValue(Date().addingTimeInterval(TimeInterval(result.expires_in)), forKey: "expirationDate")
     }
     
+    private var onRefreshBlocks = [(String) -> Void]()
+    
+    //Supllies valid token to be with used API Calls
+    public func withValidToken(completion: @escaping (String) -> Void) {
+        
+        guard !refreshingToken else {
+            //Append the complition
+            onRefreshBlocks.append(completion)
+            return
+        }
+
+        if shouldRefreshToken {
+            refreshIfNeeded { [weak self] success in
+                if let token = self?.accessToken, success {
+                    completion(token)
+                }
+            }
+        }
+        else if let token = accessToken {
+            completion(token)
+        }
+    }
+    
     // Функция для обновления access token (еще не реализована)
     public func refreshIfNeeded(completion: @escaping (Bool) -> Void) {
-//        guard shouldRefreshToken else {
-//            completion(true)
-//            return
-//        }
+        
+        guard !refreshingToken else {
+            return
+        }
+        
+        guard shouldRefreshToken else {
+            completion(true)
+            return
+        }
         
         guard let refreshToken = self.refreshToken else {
             return
@@ -154,6 +183,8 @@ final class AuthManager {
         
         // Подготавливаем компоненты URL с необходимыми параметрами запроса
         // Создаем URLComponents и добавляем необходимые параметры запроса: grant_type (тип запроса), code (код авторизации) и redirect_uri (URI перенаправления).
+        refreshingToken = true
+        
         var components = URLComponents()
         components.queryItems = [
             URLQueryItem(name: "grant_type", value: "refresh_token"),
@@ -180,6 +211,7 @@ final class AuthManager {
         
         // Выполняем запрос для обмена кода на токен
         let task = URLSession.shared.dataTask(with: request) { [weak self] data, _, error in
+            self?.refreshingToken = false
             guard let data = data, error == nil else {
                 completion(false)
                 return
@@ -188,7 +220,9 @@ final class AuthManager {
             do {
                 // Декодируем ответ в объект AuthResponse
                 let result = try JSONDecoder().decode(AuthResponse.self, from: data)
-                print("Successfully refreshed")
+                self?.onRefreshBlocks.forEach { $0(result.access_token ) }
+                self?.onRefreshBlocks.removeAll()
+                
                 // Кэшируем данные токена
                 self?.cacheToken(result: result)
                 completion(true)
