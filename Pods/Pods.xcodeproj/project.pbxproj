@@ -81,7 +81,7 @@
 		0E3E4B48C26FF73290F17C1EFE6026DA /* SDAnimatedImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DF73330B8F09AC0AB9030369FFF193 /* SDAnimatedImageView+WebCache.m */; };
 		0F62779177FF222F37378F8EB17C0B31 /* FIRComponentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 0121D565B92EEC14B202418C9F9965D8 /* FIRComponentType.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0F8A6561DB2C87FA398E1850A3DCD138 /* FIRInstallationsItem+RegisterInstallationAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C4A216E2FDD4A18E48078E05A14CF /* FIRInstallationsItem+RegisterInstallationAPI.m */; };
-		0FC5A479554857FC38A3C8753351191E /* SDWebImage-SDWebImage in Resources */ = {isa = PBXBuildFile; fileRef = CF1281E58AA1045D4B7F33FC56691C42 /* SDWebImage-SDWebImage */; };
+		0FC5A479554857FC38A3C8753351191E /* SDWebImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CF1281E58AA1045D4B7F33FC56691C42 /* SDWebImage.bundle */; };
 		105A4ECFD63735A35D10D025DD0FB044 /* GULReachabilityChecker+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = EF4B723FDBE142D768454AAE6859A3D1 /* GULReachabilityChecker+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		10605830D1E58AA670D167DAA4E7BF93 /* FIRInstallationsIIDTokenStore.h in Headers */ = {isa = PBXBuildFile; fileRef = AABD1698E5AF5FF67C5C3BBA9725569A /* FIRInstallationsIIDTokenStore.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		10DED49C2B45A5EA8FA6968F1AE7D28E /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D2F0888BDB456212164CEDA55E040CD1 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -164,7 +164,7 @@
 		35F1A2ADC57E84014A4AA84FD091ED24 /* GULSecureCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB71785B493C20098E4417AB161EE1E /* GULSecureCoding.m */; };
 		361DF121B77F1E1194A31691D1E5F153 /* nanopb-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 197AB42009EC292D964EA1E6350B44DA /* nanopb-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36ADD51D5E262B61C8AFB526AF82C9A3 /* HeartbeatsPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884D4C334134EAE10BCCD0561839171C /* HeartbeatsPayload.swift */; };
-		37A85C182EFBCAC1FF590A8871A73260 /* nanopb-nanopb_Privacy in Resources */ = {isa = PBXBuildFile; fileRef = 3227F3FC45681D7CEE5D1355A532398A /* nanopb-nanopb_Privacy */; };
+		37A85C182EFBCAC1FF590A8871A73260 /* nanopb_Privacy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3227F3FC45681D7CEE5D1355A532398A /* nanopb_Privacy.bundle */; };
 		387C8094E1C055C789587185E97E18E4 /* SDImageAssetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D3468A59B560710AD78C6CD5D6B7BB64 /* SDImageAssetManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		38B02457BF0419626BE808806831DDF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B707774984AF6E7770BA1660BC682333 /* Foundation.framework */; };
 		38E10CECD2C6C59C0CCCEB0A78D40CC1 /* SDFileAttributeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A01C803F07BDC62DCD2B94CDBE94D4 /* SDFileAttributeHelper.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -197,13 +197,13 @@
 		4624831E1C1A912E31BA028AD4C1FA7C /* SDWebImageDownloaderConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C43F27E67C5F6A6ACF3FFE8C66D666F /* SDWebImageDownloaderConfig.m */; };
 		46D38132B8E271AC638C2067D5180802 /* GULReachabilityChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F62FD86425EFE4D06DCBC192095907 /* GULReachabilityChecker.m */; };
 		475453293C1679D47716F8E17703824E /* Appirater-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F583121685B326BDBFBECCA49B1B54 /* Appirater-dummy.m */; };
-		479FAA36CA058737B6210385E125BC43 /* GoogleUtilities-GoogleUtilities_Privacy in Resources */ = {isa = PBXBuildFile; fileRef = 44E291D18340EAC3F761346198515323 /* GoogleUtilities-GoogleUtilities_Privacy */; };
+		479FAA36CA058737B6210385E125BC43 /* GoogleUtilities_Privacy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 44E291D18340EAC3F761346198515323 /* GoogleUtilities_Privacy.bundle */; };
 		480C90679D30599E736F886A01D5EC27 /* SDImageLoadersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC419CC8DB48F2FA301A7938516253F4 /* SDImageLoadersManager.m */; };
 		480EB117CA823BBA38F531F048DC5D9B /* SDInternalMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 3203EAF968C581BE2A17B486A1D575B1 /* SDInternalMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4848AD0DF4288161FDE3BEDA3CB3E152 /* GULKeychainUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E394C7E82205DF0815505009C82E7E8 /* GULKeychainUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		489EF3792EB02B2DF186C18B6A0C778E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 2EB8DDF0CCBF145381E54D2A657F216A /* PrivacyInfo.xcprivacy */; };
 		48F66F6D3C7386E5595633DE1311F129 /* UIImage+ExtendedCacheData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6552BEDB8F040CB488F9477D9E12E49F /* UIImage+ExtendedCacheData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		493EEC1796ACFA77A28E7630060A059E /* Appirater-Appirater in Resources */ = {isa = PBXBuildFile; fileRef = 1E9CD753F6BD26760EFAA1DF57482D50 /* Appirater-Appirater */; };
+		493EEC1796ACFA77A28E7630060A059E /* Appirater.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E9CD753F6BD26760EFAA1DF57482D50 /* Appirater.bundle */; };
 		49D565DACCD26FDB62644F9616009ECC /* FBLPromise+Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD4010DFB71C1E39EA66CE8463EBCD4 /* FBLPromise+Validate.m */; };
 		49F80B73F8E31BDC1CD2986181817AD5 /* SDImageCodersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F153995A1A3D1E9627A37E04E410C04 /* SDImageCodersManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A88FAAE5AFA7650E7A2E1F1C31B4E0E /* SDWebImageIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2021BFDDBD054F5B38584B11DB88D79 /* SDWebImageIndicator.m */; };
@@ -329,7 +329,7 @@
 		9AD960BC4C3E1E04B7804886EADC7CD3 /* FBLPromise+Do.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D70DAB5CF9D93828EEE06FDD8EA3B00 /* FBLPromise+Do.m */; };
 		9AF09A8AF1301B3B97DA1E5B76A19645 /* SDImageTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A6D7BB71C558CE0473BA8747210BF9D /* SDImageTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B09DACEFC3D24833C485EE18CDEA2D6 /* FIRComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD49D0FC14B1112DC6313E222A2C15F /* FIRComponent.m */; };
-		9EA209F34B3DD40767A73775D80E3F3D /* PromisesObjC-FBLPromises_Privacy in Resources */ = {isa = PBXBuildFile; fileRef = 3F238BB22C5201CE689CAF2F766AED95 /* PromisesObjC-FBLPromises_Privacy */; };
+		9EA209F34B3DD40767A73775D80E3F3D /* FBLPromises_Privacy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3F238BB22C5201CE689CAF2F766AED95 /* FBLPromises_Privacy.bundle */; };
 		9EB6CDD8F5E5570798DE4D2C6D9EEAAA /* SDImageGIFCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D0809FB36DFD6A813D65FCE57FAADF /* SDImageGIFCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9EF20C969A3D26AFF74A35A376270C62 /* UIImage+ForceDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D58927881AF7E824337E55AF8AA4CA7 /* UIImage+ForceDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F502FC673A8B7C416E0B7006ACD6F9A /* FIRHeartbeatLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 455853033A7E6B60EAB337AF22FA5ED7 /* FIRHeartbeatLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -839,7 +839,7 @@
 		06340F737A7DBA3AF6A222A1F889B6BD /* Pods-SpotifyProject-SpotifyProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpotifyProject-SpotifyProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		06682AD92A6D94E66A29321C78D08CE9 /* GULUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULUserDefaults.h; path = GoogleUtilities/UserDefaults/Public/GoogleUtilities/GULUserDefaults.h; sourceTree = "<group>"; };
 		06ACA703D87A4730D2220E375AAA07C0 /* PromisesObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromisesObjC.debug.xcconfig; sourceTree = "<group>"; };
-		06FC5C9CF96D60C50FCD47D339C91951 /* nanopb */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06FEDAD3885D159EC7959F876086DDA2 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/Core/SDImageCache.h; sourceTree = "<group>"; };
 		0923D217A237F6EF177465938EE75F2B /* Pods-SpotifyProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SpotifyProject.modulemap"; sourceTree = "<group>"; };
 		0B40BFF99DF9A1578F9EF3427666AC54 /* pb_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_common.h; sourceTree = "<group>"; };
@@ -875,7 +875,7 @@
 		1BD9B1BA87BC71B53A71A192050CEA5C /* FBLPromise+Reduce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Reduce.h"; path = "Sources/FBLPromises/include/FBLPromise+Reduce.h"; sourceTree = "<group>"; };
 		1BF4FD43BAA3DCE6F60C20960CBCBA58 /* FIRComponentContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRComponentContainer.h; path = FirebaseCore/Extension/FIRComponentContainer.h; sourceTree = "<group>"; };
 		1C584AD93F1B0C00941B96B36D6AA8E3 /* FIRComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRComponent.h; path = FirebaseCore/Extension/FIRComponent.h; sourceTree = "<group>"; };
-		1E9CD753F6BD26760EFAA1DF57482D50 /* Appirater-Appirater */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Appirater-Appirater"; path = Appirater.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E9CD753F6BD26760EFAA1DF57482D50 /* Appirater.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Appirater.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EB97E428C311533097318D63F654C49 /* GULOriginalIMPConvenienceMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULOriginalIMPConvenienceMacros.h; path = GoogleUtilities/MethodSwizzler/Public/GoogleUtilities/GULOriginalIMPConvenienceMacros.h; sourceTree = "<group>"; };
 		1EF3CA00C9F71672783C49FE36996EC0 /* FIRLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRLogger.m; path = FirebaseCore/Sources/FIRLogger.m; sourceTree = "<group>"; };
 		1FBBF803B3841BE32139026CF9712B37 /* nanopb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = nanopb.modulemap; sourceTree = "<group>"; };
@@ -915,10 +915,10 @@
 		30BAF682847D2FB6FB92B91D71C8420E /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = vi.lproj; sourceTree = "<group>"; };
 		313554376005C3F24986CC2F472086D4 /* FIRInstallationsIIDStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRInstallationsIIDStore.m; path = FirebaseInstallations/Source/Library/IIDMigration/FIRInstallationsIIDStore.m; sourceTree = "<group>"; };
 		3203EAF968C581BE2A17B486A1D575B1 /* SDInternalMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDInternalMacros.h; path = SDWebImage/Private/SDInternalMacros.h; sourceTree = "<group>"; };
-		3227F3FC45681D7CEE5D1355A532398A /* nanopb-nanopb_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "nanopb-nanopb_Privacy"; path = nanopb_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3227F3FC45681D7CEE5D1355A532398A /* nanopb_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nanopb_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3239B97D198C4023502020F2D4987EAA /* HeartbeatStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeartbeatStorage.swift; path = FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatStorage.swift; sourceTree = "<group>"; };
 		32B05D33940D599969D66F4CDE4564C2 /* Pods-SpotifyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpotifyProject.release.xcconfig"; sourceTree = "<group>"; };
-		3347A1AB6546F0A3977529B8F199DC41 /* PromisesObjC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PromisesObjC; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3464094B735E61CDE5A184C2FC77EC38 /* SDMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDMemoryCache.m; path = SDWebImage/Core/SDMemoryCache.m; sourceTree = "<group>"; };
 		349DF6C0E272034EDE871C093765E240 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = fr.lproj; sourceTree = "<group>"; };
 		355F63D25CA98879E3EE0FD402245599 /* SDImageAssetManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageAssetManager.m; path = SDWebImage/Private/SDImageAssetManager.m; sourceTree = "<group>"; };
@@ -942,7 +942,7 @@
 		3B9C61887D3744F8F8B5A839228168DD /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDWebImage.modulemap; sourceTree = "<group>"; };
 		3C3A263BCE28E451B176636838E170ED /* Pods-SpotifyProject-SpotifyProjectUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpotifyProject-SpotifyProjectUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3D10148A88031F1398846973EB313CD5 /* StorageFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StorageFactory.swift; path = FirebaseCore/Internal/Sources/HeartbeatLogging/StorageFactory.swift; sourceTree = "<group>"; };
-		3F238BB22C5201CE689CAF2F766AED95 /* PromisesObjC-FBLPromises_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "PromisesObjC-FBLPromises_Privacy"; path = FBLPromises_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F238BB22C5201CE689CAF2F766AED95 /* FBLPromises_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBLPromises_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA44E8F7A0DEB3B5961D3541F237CBE /* SDWebImageDownloaderResponseModifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderResponseModifier.h; path = SDWebImage/Core/SDWebImageDownloaderResponseModifier.h; sourceTree = "<group>"; };
 		3FB8D5872AA4595D5B8EF4C5339162F1 /* FIRInstallationsIDController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRInstallationsIDController.m; path = FirebaseInstallations/Source/Library/InstallationsIDController/FIRInstallationsIDController.m; sourceTree = "<group>"; };
 		3FCC5DF16E13CC9503D9EA740FF02024 /* FirebaseCoreInternal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebaseCoreInternal.release.xcconfig; sourceTree = "<group>"; };
@@ -952,11 +952,11 @@
 		40F3ACC14AE35FA6B78F03A662EEDEA7 /* FIROptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIROptions.h; path = FirebaseCore/Sources/Public/FirebaseCore/FIROptions.h; sourceTree = "<group>"; };
 		417F69FDFFEEE8EF062D1DC47042E15B /* FIRInstallationsBackoffController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRInstallationsBackoffController.m; path = FirebaseInstallations/Source/Library/InstallationsIDController/FIRInstallationsBackoffController.m; sourceTree = "<group>"; };
 		420D7055B43FDA8DFE3FB491BEEF3A00 /* SDWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWeakProxy.h; path = SDWebImage/Private/SDWeakProxy.h; sourceTree = "<group>"; };
-		437153E8CCC4BDE6BE1ECE1848055591 /* Pods-SpotifyProject */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SpotifyProject"; path = Pods_SpotifyProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		437153E8CCC4BDE6BE1ECE1848055591 /* Pods_SpotifyProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotifyProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		442FBC7597623420DD08E2F18304ADBD /* FBLPromise+Validate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Validate.h"; path = "Sources/FBLPromises/include/FBLPromise+Validate.h"; sourceTree = "<group>"; };
 		446C33DAE4191A04D853C7136592DADC /* FBLPromise+Testing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Testing.m"; path = "Sources/FBLPromises/FBLPromise+Testing.m"; sourceTree = "<group>"; };
 		44B3233E5B620285A7305258C620F7F4 /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = sv.lproj; sourceTree = "<group>"; };
-		44E291D18340EAC3F761346198515323 /* GoogleUtilities-GoogleUtilities_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GoogleUtilities-GoogleUtilities_Privacy"; path = GoogleUtilities_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E291D18340EAC3F761346198515323 /* GoogleUtilities_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleUtilities_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		44ED0B26E073ABD7EAFFF6F8FA2CBBB0 /* GULNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetwork.m; path = GoogleUtilities/Network/GULNetwork.m; sourceTree = "<group>"; };
 		4525ED36144B0800773C176E2B0FD632 /* Pods-SpotifyProjectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpotifyProjectTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		455853033A7E6B60EAB337AF22FA5ED7 /* FIRHeartbeatLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRHeartbeatLogger.h; path = FirebaseCore/Extension/FIRHeartbeatLogger.h; sourceTree = "<group>"; };
@@ -1177,12 +1177,12 @@
 		AF63C7E17B6A65723BB0041776358A79 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/Core/SDWebImageDownloader.h; sourceTree = "<group>"; };
 		B01D4B56297C1BD450EB1B28D0EAA954 /* UIColor+SDHexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SDHexString.h"; path = "SDWebImage/Private/UIColor+SDHexString.h"; sourceTree = "<group>"; };
 		B062ECE62AEC4D29066F3B403D6A68FF /* SDWebImageTransitionInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransitionInternal.h; path = SDWebImage/Private/SDWebImageTransitionInternal.h; sourceTree = "<group>"; };
-		B0B214D775196BA7CA8E17E53048A493 /* SDWebImage */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15DA2A1385DDB94C70080DA44637D67 /* SDDeviceHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDeviceHelper.m; path = SDWebImage/Private/SDDeviceHelper.m; sourceTree = "<group>"; };
 		B2AD7790805736311D6E0CEE4D01792E /* GULSceneDelegateSwizzler_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULSceneDelegateSwizzler_Private.h; path = GoogleUtilities/AppDelegateSwizzler/Internal/GULSceneDelegateSwizzler_Private.h; sourceTree = "<group>"; };
 		B2D6BAA6DD649E0FCD519465416971F5 /* FBLPromise+Await.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Await.h"; path = "Sources/FBLPromises/include/FBLPromise+Await.h"; sourceTree = "<group>"; };
 		B3F62FD86425EFE4D06DCBC192095907 /* GULReachabilityChecker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULReachabilityChecker.m; path = GoogleUtilities/Reachability/GULReachabilityChecker.m; sourceTree = "<group>"; };
-		B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleUtilities; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B60D67B2F56EE47D5997479BAF3A0972 /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = FirebaseCore/Internal/Sources/HeartbeatLogging/Storage.swift; sourceTree = "<group>"; };
 		B64D2B996CEBD26CC762A965686C1834 /* FBLPromise+Timeout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Timeout.m"; path = "Sources/FBLPromises/FBLPromise+Timeout.m"; sourceTree = "<group>"; };
 		B6F6D1E0764990D9465B0D113D4D03FA /* Pods-SpotifyProject-SpotifyProjectUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SpotifyProject-SpotifyProjectUITests.modulemap"; sourceTree = "<group>"; };
@@ -1242,7 +1242,7 @@
 		CE428FF14C41A2BC739967277C8376F5 /* GoogleAppMeasurement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleAppMeasurement.debug.xcconfig; sourceTree = "<group>"; };
 		CE62FA95EF912A2477450DEABF109DE1 /* SDImageFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageFrame.m; path = SDWebImage/Core/SDImageFrame.m; sourceTree = "<group>"; };
 		CF072C0D1C9F07F48A649AA9D1DDC962 /* SDImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCoder.h; path = SDWebImage/Core/SDImageCoder.h; sourceTree = "<group>"; };
-		CF1281E58AA1045D4B7F33FC56691C42 /* SDWebImage-SDWebImage */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SDWebImage-SDWebImage"; path = SDWebImage.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1281E58AA1045D4B7F33FC56691C42 /* SDWebImage.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDWebImage.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8CE1E299235D933737CDA7E4559816 /* FIRLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRLogger.h; path = FirebaseCore/Extension/FIRLogger.h; sourceTree = "<group>"; };
 		CFD736FE7BE230121B6F5657EABCE17A /* UIImage+ForceDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ForceDecode.m"; path = "SDWebImage/Core/UIImage+ForceDecode.m"; sourceTree = "<group>"; };
 		D0666CB98057BB434469657528A5B12E /* _ObjC_HeartbeatsPayload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _ObjC_HeartbeatsPayload.swift; path = FirebaseCore/Internal/Sources/HeartbeatLogging/_ObjC_HeartbeatsPayload.swift; sourceTree = "<group>"; };
@@ -2271,24 +2271,24 @@
 			isa = PBXGroup;
 			children = (
 				23D4D9F87518207E73E88D8FBC7C8DE3 /* Appirater.framework */,
-				1E9CD753F6BD26760EFAA1DF57482D50 /* Appirater-Appirater */,
+				1E9CD753F6BD26760EFAA1DF57482D50 /* Appirater.bundle */,
 				E2B63D462DB7F827C4B11FD51E4F8E2D /* FirebaseCore */,
 				8BB937B1C0DFFCF92F41861C2BC54DDA /* FirebaseCore-FirebaseCore_Privacy */,
 				148D0F9E8C7373FEAF40D800FC5F1BAA /* FirebaseCoreInternal */,
 				4DB03FD262B678178A44272143846563 /* FirebaseCoreInternal-FirebaseCoreInternal_Privacy */,
 				13C8C8B254851998F9289F71229B28A2 /* FirebaseInstallations */,
 				47C581450CDB4A6111CB97EEE0711A8C /* FirebaseInstallations-FirebaseInstallations_Privacy */,
-				B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities */,
-				44E291D18340EAC3F761346198515323 /* GoogleUtilities-GoogleUtilities_Privacy */,
-				06FC5C9CF96D60C50FCD47D339C91951 /* nanopb */,
-				3227F3FC45681D7CEE5D1355A532398A /* nanopb-nanopb_Privacy */,
-				437153E8CCC4BDE6BE1ECE1848055591 /* Pods-SpotifyProject */,
+				B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */,
+				44E291D18340EAC3F761346198515323 /* GoogleUtilities_Privacy.bundle */,
+				06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */,
+				3227F3FC45681D7CEE5D1355A532398A /* nanopb_Privacy.bundle */,
+				437153E8CCC4BDE6BE1ECE1848055591 /* Pods_SpotifyProject.framework */,
 				E8FDB449167DA4317C6F670006253C0A /* Pods-SpotifyProject-SpotifyProjectUITests */,
 				4A22323F9C25BC99C2629C2D988AF87A /* Pods-SpotifyProjectTests */,
-				3347A1AB6546F0A3977529B8F199DC41 /* PromisesObjC */,
-				3F238BB22C5201CE689CAF2F766AED95 /* PromisesObjC-FBLPromises_Privacy */,
-				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage */,
-				CF1281E58AA1045D4B7F33FC56691C42 /* SDWebImage-SDWebImage */,
+				3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */,
+				3F238BB22C5201CE689CAF2F766AED95 /* FBLPromises_Privacy.bundle */,
+				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */,
+				CF1281E58AA1045D4B7F33FC56691C42 /* SDWebImage.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2812,7 +2812,7 @@
 			);
 			name = "PromisesObjC-FBLPromises_Privacy";
 			productName = FBLPromises_Privacy;
-			productReference = 3F238BB22C5201CE689CAF2F766AED95 /* PromisesObjC-FBLPromises_Privacy */;
+			productReference = 3F238BB22C5201CE689CAF2F766AED95 /* FBLPromises_Privacy.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		20299FCCADA6935B94F1524E8A01F247 /* Pods-SpotifyProject */ = {
@@ -2841,7 +2841,7 @@
 			);
 			name = "Pods-SpotifyProject";
 			productName = Pods_SpotifyProject;
-			productReference = 437153E8CCC4BDE6BE1ECE1848055591 /* Pods-SpotifyProject */;
+			productReference = 437153E8CCC4BDE6BE1ECE1848055591 /* Pods_SpotifyProject.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		205E7D57041B9E008E7BA9E690024A30 /* Pods-SpotifyProject-SpotifyProjectUITests */ = {
@@ -2926,7 +2926,7 @@
 			);
 			name = PromisesObjC;
 			productName = FBLPromises;
-			productReference = 3347A1AB6546F0A3977529B8F199DC41 /* PromisesObjC */;
+			productReference = 3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3847153A6E5EEFB86565BA840768F429 /* SDWebImage */ = {
@@ -2945,7 +2945,7 @@
 			);
 			name = SDWebImage;
 			productName = SDWebImage;
-			productReference = B0B214D775196BA7CA8E17E53048A493 /* SDWebImage */;
+			productReference = B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3EB14444A17F9D4F1F697F7C1FF32245 /* FirebaseInstallations-FirebaseInstallations_Privacy */ = {
@@ -3000,7 +3000,7 @@
 			);
 			name = "nanopb-nanopb_Privacy";
 			productName = nanopb_Privacy;
-			productReference = 3227F3FC45681D7CEE5D1355A532398A /* nanopb-nanopb_Privacy */;
+			productReference = 3227F3FC45681D7CEE5D1355A532398A /* nanopb_Privacy.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		5FF1A58DEEC5DB749FCD6C120B97CC82 /* GoogleUtilities-GoogleUtilities_Privacy */ = {
@@ -3017,7 +3017,7 @@
 			);
 			name = "GoogleUtilities-GoogleUtilities_Privacy";
 			productName = GoogleUtilities_Privacy;
-			productReference = 44E291D18340EAC3F761346198515323 /* GoogleUtilities-GoogleUtilities_Privacy */;
+			productReference = 44E291D18340EAC3F761346198515323 /* GoogleUtilities_Privacy.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		87803597EB3F20FC46472B85392EC4FD /* FirebaseInstallations */ = {
@@ -3059,7 +3059,7 @@
 			);
 			name = GoogleUtilities;
 			productName = GoogleUtilities;
-			productReference = B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities */;
+			productReference = B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		94CFBA7D633ECA58DF85C327B035E6A3 /* SDWebImage-SDWebImage */ = {
@@ -3076,7 +3076,7 @@
 			);
 			name = "SDWebImage-SDWebImage";
 			productName = SDWebImage;
-			productReference = CF1281E58AA1045D4B7F33FC56691C42 /* SDWebImage-SDWebImage */;
+			productReference = CF1281E58AA1045D4B7F33FC56691C42 /* SDWebImage.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		CE9FA8ACD6205C77B753798CD736FAEF /* Appirater */ = {
@@ -3114,7 +3114,7 @@
 			);
 			name = nanopb;
 			productName = nanopb;
-			productReference = 06FC5C9CF96D60C50FCD47D339C91951 /* nanopb */;
+			productReference = 06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E56E80821D169C98E99A62EBCBC60B2C /* Appirater-Appirater */ = {
@@ -3131,7 +3131,7 @@
 			);
 			name = "Appirater-Appirater";
 			productName = Appirater;
-			productReference = 1E9CD753F6BD26760EFAA1DF57482D50 /* Appirater-Appirater */;
+			productReference = 1E9CD753F6BD26760EFAA1DF57482D50 /* Appirater.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -3267,7 +3267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FC5A479554857FC38A3C8753351191E /* SDWebImage-SDWebImage in Resources */,
+				0FC5A479554857FC38A3C8753351191E /* SDWebImage.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3324,7 +3324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				493EEC1796ACFA77A28E7630060A059E /* Appirater-Appirater in Resources */,
+				493EEC1796ACFA77A28E7630060A059E /* Appirater.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3332,7 +3332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				479FAA36CA058737B6210385E125BC43 /* GoogleUtilities-GoogleUtilities_Privacy in Resources */,
+				479FAA36CA058737B6210385E125BC43 /* GoogleUtilities_Privacy.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3348,7 +3348,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EA209F34B3DD40767A73775D80E3F3D /* PromisesObjC-FBLPromises_Privacy in Resources */,
+				9EA209F34B3DD40767A73775D80E3F3D /* FBLPromises_Privacy.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3364,7 +3364,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37A85C182EFBCAC1FF590A8871A73260 /* nanopb-nanopb_Privacy in Resources */,
+				37A85C182EFBCAC1FF590A8871A73260 /* nanopb_Privacy.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
